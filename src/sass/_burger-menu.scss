@@ -1,0 +1,16 @@
+.menu-toggle.js-open-menu{
+    position: absolute;
+    right: 20px;
+    height: 27px;
+
+}
+.nav-bar{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    color:var(--white);
+}
+
+.nav-bar:hover{
+    color: var(--red-passion);
+}

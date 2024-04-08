@@ -1,0 +1,269 @@
+* {
+    margin: 0 auto;
+}
+
+.footer-container {
+    width: 1200px;
+    height: 877px;
+    background: #fff5f6;
+    position: relative;
+}
+
+li {
+    list-style-type: none;
+    /* Remove bullets */
+}
+
+.footer-tagline1,
+.footer-tagline2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links-list {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    right: 16px;
+    bottom: 167px;
+}
+
+.social-icon {
+    fill: #ffa5ba;
+}
+
+.footer-text1 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #ffa5ba;
+    position: absolute;
+    left: 16px;
+    bottom: 167px;
+}
+
+.footer-text2 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 58px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #d41443;
+    position: absolute;
+    left: 16px;
+    bottom: 97px;
+}
+
+.footer-icon-svg {
+    width: 24px;
+    height: 24px;
+}
+
+.contact-list {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: flex-end;
+    padding: 0;
+    position: absolute;
+    right: 16px;
+    bottom: 97px;
+}
+
+.contact {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+
+    /* line-height: 30px; */
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+.hr-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-line {
+    color: #e1e1e1;
+    width: 1167px;
+    height: 1px;
+    position: absolute;
+    bottom: 37px;
+    left: 17;
+}
+
+.copyright {
+    display: flex;
+    width: 100%;
+    /* flex-direction: row;
+   justify-content: center;
+   align-items: center;*/
+    position: absolute;
+
+    bottom: 4px;
+}
+
+#last-row {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    /*  margin-left: 462px;
+    /*width:50%;*/
+
+    /* line-height: 26px; */
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: #907e82;
+    text-align: center;
+}
+
+.telephone {
+    text-decoration: none;
+    color: #d41443;
+    vertical-align: bottom;
+}
+
+.top-footer {
+    position: relative;
+}* {
+    margin: 0 auto;
+}
+
+.footer-container {
+    width: 1200px;
+    height: 877px;
+    background: #fff5f6;
+    position: relative;
+}
+
+li {
+    list-style-type: none;
+    /* Remove bullets */
+}
+
+.footer-tagline1,
+.footer-tagline2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links-list {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    right: 16px;
+    bottom: 167px;
+}
+
+.social-icon {
+    fill: #ffa5ba;
+}
+
+.footer-text1 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #ffa5ba;
+    position: absolute;
+    left: 16px;
+    bottom: 167px;
+}
+
+.footer-text2 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 58px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #d41443;
+    position: absolute;
+    left: 16px;
+    bottom: 97px;
+}
+
+.footer-icon-svg {
+    width: 24px;
+    height: 24px;
+}
+
+.contact-list {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: flex-end;
+    padding: 0;
+    position: absolute;
+    right: 16px;
+    bottom: 97px;
+}
+
+.contact {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+
+    /* line-height: 30px; */
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+.hr-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-line {
+    color: #e1e1e1;
+    width: 1167px;
+    height: 1px;
+    position: absolute;
+    bottom: 37px;
+    left: 17;
+}
+
+.copyright {
+    display: flex;
+    width: 100%;
+    /* flex-direction: row;
+   justify-content: center;
+   align-items: center;*/
+    position: absolute;
+
+    bottom: 4px;
+}
+
+#last-row {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    /*  margin-left: 462px;
+    /*width:50%;*/
+
+    /* line-height: 26px; */
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: #907e82;
+    text-align: center;
+}
+
+.telephone {
+    text-decoration: none;
+    color: #d41443;
+    vertical-align: bottom;
+}
+
+.top-footer {
+    position: relative;
+}

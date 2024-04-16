@@ -3,7 +3,7 @@
 }
 .subtitle-how-its-made h2 {
   font-family: var(--big-font);
-  font-size: var(--h2);
+  font-size: 18px;
   font-weight: 400;
   color: var(--pink-elipse);
   line-height: 20.61px;
@@ -25,10 +25,10 @@
 }
 
 .subtitle-how-its-made {
-    display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding-top: 60px;
   gap: 16px;
 }
@@ -62,8 +62,9 @@
 }
 
 .container-how-its-made {
-  width: 100%;
+  width: 320px;
   height: 1564px;
+  margin-left: 400px;
 }
 
 .p-how-its-made-1 {
@@ -229,8 +230,8 @@
   background-color: var(--pink-bg);
   padding: 20px;
   border: 1px solid #888;
-  width: 60%;
-  height:auto;
+  width: 20%;
+  height: auto;
   border-radius: 40px;
 }
 
@@ -249,14 +250,23 @@
     display: inline-block;
   }
   .container-how-its-made {
-    // height: 1092px;
-    width: 1200px;
+    margin-left: 165px;
+    width: 768px;
   }
+  .container-right {
+    background-position: 50% 50px;
+    background-repeat: no-repeat;
+    background-size: 280px 133px;
+    flex-grow: 1;
+    padding-left: 10px;
+    padding-bottom: 165px;
+  }
+
   .advantages-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
     gap: 20px;
-    width: 768px;
+    width: 595px;
   } /* Gap between grid items */
   .advantages {
     display: flex;
@@ -350,6 +360,7 @@
     border-radius: 40px;
     margin-left: 100px;
     min-height: 400px;
+    margin: auto auto auto 350px;
   }
 
   .modal-read-more {
@@ -595,6 +606,7 @@
     height: 100px;
     min-height: 350px;
     line-height: 28.16px;
+    margin-right: 100px;
   }
 
   .modal-read-more {

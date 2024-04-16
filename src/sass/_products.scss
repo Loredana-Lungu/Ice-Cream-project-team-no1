@@ -245,38 +245,3 @@
         line-height: 28.16px;
     }
 }
-
- @media screen and (-webkit-min-device-pixel-ratio:2) and 
- (min-resolution:2dppx) {
-    .card-1 h2::before {
-        content: url(../images/products/mobile-ice-cream@2x.png);
-    }
-    .card-1 h2::before {
-        content: url(../images/products/mobile-ice-coffee@2x.png);
-    }
-    .card-1 h2::before {
-        content: url(../images/products/mobile-milkshakes@2x.png);
-    }
-    @media screen and (min-width:768px) {
-        .card-1 h2::before {
-            content: url(../images/products/tablet-ice-cream@2x.png);
-        }
-        .card-2 h2::before {
-            content: url(../images/products/tablet-ice-coffee@2x.png);
-        }
-        .card-3 h2::before {
-            content: url(../images/products/tablet-milkshakes@2x.png);
-        }
-    }
-    @media screen and (min-width:1280px) {
-        .card-1 h2::before {
-            content: url(../images/products/ice-cream@2x.png);
-        }
-        .card-2 h2::before {
-            content: url(../images/products/ice-coffee@2x.png);
-        }
-        .card-3 h2::before {
-            content: url(../images/products/milkshakes@2x.png);
-        }
-    }
-}

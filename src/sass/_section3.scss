@@ -1,9 +1,10 @@
 .body-how-its-made {
   display: inline-block;
 }
+
 .subtitle-how-its-made h2 {
   font-family: var(--big-font);
-  font-size: var(--h2);
+  font-size: 18px;
   font-weight: 400;
   color: var(--pink-elipse);
   line-height: 20.61px;
@@ -25,10 +26,10 @@
 }
 
 .subtitle-how-its-made {
-    display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding-top: 60px;
   gap: 16px;
 }
@@ -62,8 +63,9 @@
 }
 
 .container-how-its-made {
-  width: 100%;
+  width: 320px;
   height: 1564px;
+  margin-left: 400px;
 }
 
 .p-how-its-made-1 {
@@ -170,8 +172,10 @@
 }
 
 .advantages-container {
-  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
-  gap: 20px; /* Gap between grid items */
+  grid-template-columns: repeat(3, 1fr);
+  /* Three columns with equal width */
+  gap: 20px;
+  /* Gap between grid items */
 }
 
 .advantages {
@@ -189,6 +193,7 @@
   background-size: cover;
   margin-bottom: 10px;
 }
+
 .icon-icecream-apple {
   width: 50px;
   height: 50px;
@@ -196,6 +201,7 @@
   background-size: cover;
   margin-bottom: 10px;
 }
+
 .icon-flavours {
   width: 50px;
   height: 50px;
@@ -226,12 +232,13 @@
 
 /* Modal Content */
 .modal-content {
+  margin-top: 800px;
   background-color: var(--pink-bg);
-  padding: 20px;
+  width: 20%;
+  height: auto;
   border: 1px solid #888;
-  width: 60%;
-  height:auto;
   border-radius: 40px;
+  padding: 20px;
 }
 
 .modal-read-more {
@@ -248,16 +255,30 @@
   .body-how-its-made {
     display: inline-block;
   }
+
   .container-how-its-made {
-    // height: 1092px;
-    width: 1200px;
+    margin-left: 165px;
+    width: 768px;
   }
+
+  .container-right {
+    background-position: 50% 50px;
+    background-repeat: no-repeat;
+    background-size: 280px 133px;
+    flex-grow: 1;
+    padding-left: 10px;
+    padding-bottom: 165px;
+  }
+
   .advantages-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    grid-template-columns: repeat(3, 1fr);
+    /* Three columns with equal width */
     gap: 20px;
-    width: 768px;
-  } /* Gap between grid items */
+    width: 595px;
+  }
+
+  /* Gap between grid items */
   .advantages {
     display: flex;
     flex-direction: column;
@@ -273,10 +294,12 @@
     width: auto;
     position: relative;
   }
+
   .how-its-made {
     background-color: #fff5f6;
     margin-bottom: 60px;
   }
+
   .container-img-p img {
     width: 336px;
     height: 335px;
@@ -284,6 +307,7 @@
     padding-left: 32px;
     margin-bottom: 265px;
   }
+
   .h3-section3-advantages {
     font-family: var(--big-font);
     font-weight: 400;
@@ -295,6 +319,7 @@
     text-transform: uppercase;
     margin: 0;
   }
+
   .p-section3-advantages {
     font: var(--common-font);
     font-weight: var(--weight-fnt-big);
@@ -304,6 +329,7 @@
     color: var(--black);
     text-align: left;
   }
+
   .icon-production {
     width: 50px;
     height: 50px;
@@ -311,6 +337,7 @@
     background-size: cover;
     margin-bottom: 10px;
   }
+
   .icon-icecream-apple {
     width: 50px;
     height: 50px;
@@ -318,6 +345,7 @@
     background-size: cover;
     margin-bottom: 10px;
   }
+
   .icon-flavours {
     width: 50px;
     height: 50px;
@@ -325,6 +353,7 @@
     background-size: cover;
     margin-bottom: 10px;
   }
+
   /* The Modal (background) */
   .modal {
     display: none;
@@ -350,6 +379,7 @@
     border-radius: 40px;
     margin-left: 100px;
     min-height: 400px;
+    margin: auto auto auto 350px;
   }
 
   .modal-read-more {
@@ -361,11 +391,13 @@
     text-align: left;
   }
 }
+
 /* Desktop styles */
 @media screen and (min-width: 1159px) {
   .body-how-its-made {
     display: inline-block;
   }
+
   .subtitle {
     font-family: var(--big-font);
     font-size: 30px;
@@ -531,8 +563,10 @@
 
   .advantages-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
-    gap: 20px; /* Gap between grid items */
+    grid-template-columns: repeat(3, 1fr);
+    /* Three columns with equal width */
+    gap: 20px;
+    /* Gap between grid items */
   }
 
   .advantages {
@@ -549,6 +583,7 @@
     background-size: cover;
     margin-bottom: 10px;
   }
+
   .icon-icecream-apple {
     width: 50px;
     height: 50px;
@@ -556,6 +591,7 @@
     background-size: cover;
     margin-bottom: 10px;
   }
+
   .icon-flavours {
     width: 50px;
     height: 50px;
@@ -587,7 +623,7 @@
   /* Modal Content */
   .modal-content {
     background-color: var(--pink-bg);
-    margin: auto;
+    margin: 200px 100px auto auto;
     padding: 20px;
     border: 1px solid #888;
     width: 50%;
@@ -595,6 +631,7 @@
     height: 100px;
     min-height: 350px;
     line-height: 28.16px;
+    margin-right: 100px;
   }
 
   .modal-read-more {

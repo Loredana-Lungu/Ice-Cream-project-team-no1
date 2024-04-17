@@ -1,9 +1,10 @@
 .body-how-its-made {
   display: inline-block;
 }
+
 .subtitle-how-its-made h2 {
   font-family: var(--big-font);
-  font-size: var(--h2);
+  font-size: 18px;
   font-weight: 400;
   color: var(--pink-elipse);
   line-height: 20.61px;
@@ -22,13 +23,15 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   margin: 0;
+  width: 200px;
+  height: 76px;
 }
 
 .subtitle-how-its-made {
-    display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding-top: 60px;
   gap: 16px;
 }
@@ -44,7 +47,7 @@
   background-size: 280px 133px;
   position: relative;
   background-repeat: no-repeat;
-  background-position: 25px 360px;
+  background-position: 25px 396px;
 }
 
 .container-img-p img {
@@ -55,14 +58,14 @@
 
 .container-right {
   flex-grow: 1;
-  padding-left: 10px;
+  padding-left: 15px;
   background-size: 280px 133px;
   background-repeat: no-repeat;
   background-position: center top 50px;
 }
 
 .container-how-its-made {
-  width: 100%;
+  width: 320px;
   height: 1564px;
 }
 
@@ -76,6 +79,9 @@
   font-weight: bold;
   grid-template-rows: repeat(4, 1fr);
   white-space: pre-line;
+  width: 220px;
+  height: 111px;
+  padding-left: 10px;
 }
 
 .p-how-its-made-2 {
@@ -87,15 +93,25 @@
   letter-spacing: 0.04em;
   grid-template-rows: repeat(4, 1fr);
   white-space: pre-line;
+  width: 220px;
+  height: 171px;
+  padding-left: 10px;
 }
-
+.div-p-how-its-made-1 {
+  width: 280px;
+  height: 85px;
+}
+.div-p-how-its-made-2 {
+  width: 280px;
+  height: 85px;
+}
 .btn-read-more {
-  margin-top: 40px;
+  margin-top: 20px;
   border: none;
   color: var(--red-button);
-  font: var(--common-font);
+  font-size: var(--common-font);
   font-weight: var(--weight-fnt-big);
-  font-size: var(--primary-font-size);
+  font-size: var(--secondary-font-size);
   line-height: 20.83px;
   background-color: var(--white);
   padding: 15px 32px;
@@ -105,6 +121,7 @@
   font-size: 16px;
   border-radius: 22px;
   cursor: pointer;
+  margin-bottom: 40px;
 }
 
 .btn-read-more:hover {
@@ -136,13 +153,15 @@
 }
 
 .p-section3-advantages {
-  font: var(--common-font);
   font-weight: var(--weight-fnt-big);
   font-size: 12px;
   line-height: 20.4px;
   letter-spacing: 0.02em;
   color: var(--black);
   text-align: left;
+  width: 283px;
+  height: 36px;
+  margin-bottom: 36px;
 }
 
 .advantages-grid {
@@ -229,9 +248,11 @@
   background-color: var(--pink-bg);
   padding: 20px;
   border: 1px solid #888;
-  width: 60%;
-  height:auto;
+  width: 27%;
+  height: auto;
   border-radius: 40px;
+  margin-left: 11px;
+  transform: translate(0%, 160%);
 }
 
 .modal-read-more {
@@ -249,14 +270,41 @@
     display: inline-block;
   }
   .container-how-its-made {
-    // height: 1092px;
-    width: 1200px;
+    width: 768px;
+    height: 1092px;
+  }
+
+  .subtitle-how-its-made h2 {
+    font-family: var(--big-font);
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--pink-elipse);
+    line-height: 29.77px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin: 0;
+    width: 306px;
+    height: 30px;
+    text-align: center;
+  }
+  .h1-how-its-made {
+    font-family: var(--big-font);
+    font-weight: 400;
+    font-size: 48px;
+    color: var(--red-passion);
+    text-align: center;
+    line-height: 54.96px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin: 0;
+    width: 431px;
+    height: 55px;
   }
   .advantages-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
-    gap: 20px;
-    width: 768px;
+    gap: 0px;
+    width: 700px;
   } /* Gap between grid items */
   .advantages {
     display: flex;
@@ -277,12 +325,72 @@
     background-color: #fff5f6;
     margin-bottom: 60px;
   }
+  .p-how-its-made-1 {
+    font-weight: var(--weight-fnt-medium);
+    font-size: 14px;
+    color: var(--black);
+    line-height: 24.36px;
+    letter-spacing: 0.04em;
+    font-weight: bold;
+    grid-template-rows: repeat(4, 1fr);
+    white-space: pre-line;
+    width: 365px;
+    height: 95px;
+    padding-left: 32px;
+  }
+
+  .p-how-its-made-2 {
+    font-size: var(--common-font);
+    font-weight: var(--weight-fnt-medium);
+    font-size: 14px;
+    line-height: 27.16px;
+    margin-bottom: 40px;
+    letter-spacing: 0.04em;
+    grid-template-rows: repeat(4, 1fr);
+    white-space: pre-line;
+    width: 365px;
+    height: 155px;
+    padding-left: 32px;
+  }
+
+  .div-p-how-its-made-1 {
+    width: 165px;
+    height: 113px;
+  }
+  .div-p-how-its-made-2 {
+    width: 165px;
+    height: 113px;
+  }
+  .btn-read-more {
+    margin-bottom: 40px;
+    border: none;
+    color: var(--red-button);
+    font-size: var(--common-font);
+    font-weight: var(--weight-fnt-big);
+    font-size: var(--secondary-font-size);
+    line-height: 20.83px;
+    background-color: var(--white);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 22px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    margin-left: 32px;
+  }
+
+  .btn-read-more:hover {
+    cursor: pointer;
+
+    background-color: var(--pink-elipse);
+  }
   .container-img-p img {
     width: 336px;
     height: 335px;
     margin-right: 20px;
     padding-left: 32px;
-    margin-bottom: 265px;
   }
   .h3-section3-advantages {
     font-family: var(--big-font);
@@ -296,13 +404,15 @@
     margin: 0;
   }
   .p-section3-advantages {
-    font: var(--common-font);
+    font-size: var(--common-font);
     font-weight: var(--weight-fnt-big);
     font-size: 14px;
     line-height: 24.36px;
     letter-spacing: 0.02em;
     color: var(--black);
     text-align: left;
+    width: 176px;
+    height: 113px;
   }
   .icon-production {
     width: 50px;
@@ -330,11 +440,11 @@
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 100px;
-    left: 0;
+    padding-top: 15px;
+    padding-left: 120px;
     top: 0;
     width: 100%;
-    height: 100%;
+    height: 105%;
     overflow: auto;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
@@ -343,13 +453,13 @@
   /* Modal Content */
   .modal-content {
     background-color: var(--pink-bg);
-    margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 50%;
+    width: 64%;
+    height: auto;
     border-radius: 40px;
-    margin-left: 100px;
-    min-height: 400px;
+    margin-left: 11px;
+    transform: translate(-4%, 60%);
   }
 
   .modal-read-more {
@@ -362,19 +472,21 @@
   }
 }
 /* Desktop styles */
-@media screen and (min-width: 1159px) {
+@media screen and (min-width: 1159px) and (max-width: 1440px) {
   .body-how-its-made {
     display: inline-block;
   }
-  .subtitle {
+  .subtitle-how-its-made h2 {
     font-family: var(--big-font);
-    font-size: 30px;
+    font-size: 34px;
     font-weight: 400;
     color: var(--pink-elipse);
     line-height: 34.35px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     margin: 0;
+    // width: 351px;
+    // height: 34px;
   }
 
   .h1-how-its-made {
@@ -387,6 +499,8 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     margin: 0;
+    width: 541px;
+    height: 66px;
   }
 
   .subtitle-how-its-made {
@@ -415,10 +529,13 @@
     margin-right: 20px;
   }
 
-  .container-right {
-    flex-grow: 1;
-    padding-left: 80px;
-  }
+  // .container-right {
+  //   flex-grow: 1;
+  //   padding-left: 15px;
+  //   background-size: 280px 133px;
+  //   background-repeat: no-repeat;
+  //   background-position: center top 50px;
+  // }
 
   .container-how-its-made {
     width: 100%;
@@ -435,6 +552,8 @@
     font-weight: bold;
     grid-template-rows: repeat(4, 1fr);
     white-space: pre-line;
+    width: 400px;
+    height: 104px;
   }
 
   .p-how-its-made-2 {
@@ -446,8 +565,17 @@
     letter-spacing: 0.04em;
     grid-template-rows: repeat(4, 1fr);
     white-space: pre-line;
+    width: 401px;
+    height: 130px;
   }
-
+  .div-p-how-its-made-1 {
+    width: 288px;
+    height: 79px;
+  }
+  .div-p-how-its-made-2 {
+    width: 317px;
+    height: 58px;
+  }
   .btn-read-more {
     margin-top: 40px;
     border: none;
@@ -595,6 +723,7 @@
     height: 100px;
     min-height: 350px;
     line-height: 28.16px;
+    transform: translate(0%, 10%);
   }
 
   .modal-read-more {

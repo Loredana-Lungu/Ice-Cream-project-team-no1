@@ -76,6 +76,13 @@
     transition: var(--transition);
 }
 
+.first-button:hover a,
+.first-button:focus a,
+.second-button:hover a,
+.second-button:focus a {
+    color: var(--white);
+}
+
 .text-arrow {
     display: none;
 }

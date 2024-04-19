@@ -94,6 +94,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
+}
+
+.buy-button-burger:hover {
+    background-color: var(--red-passion);
+    color: var(--white);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.button-svg {
+    width: 4px;
+    height: 8px;
+    stroke: var(--red-passion);
+    margin-left: 12px;
+}
+
+.button-svg:hover {
+    fill: var(--white);
 }
 
 .container-buy-now-burger {
